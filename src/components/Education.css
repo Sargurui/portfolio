@@ -1,0 +1,220 @@
+.education {
+  min-height: 100vh;
+  padding: 100px 20px;
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+
+.education-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.education-card {
+  background: var(--card-bg);
+  border: 2px solid rgba(255, 215, 0, 0.2);
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  gap: 30px;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.education-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--golden-yellow), var(--golden-dark));
+  transform: scaleY(0);
+  transition: transform 0.4s ease;
+}
+
+.education-card:hover::before {
+  transform: scaleY(1);
+}
+
+.education-card:hover {
+  border-color: var(--golden-yellow);
+}
+
+.edu-icon {
+  font-size: 60px;
+  color: var(--golden-yellow);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 215, 0, 0.1);
+  border-radius: 50%;
+  border: 2px solid var(--golden-yellow);
+  flex-shrink: 0;
+  padding: 20px;
+}
+
+.edu-content {
+  flex: 1;
+}
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  gap: 20px;
+}
+
+.edu-degree {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+  line-height: 1.3;
+}
+
+.edu-institution {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--golden-yellow);
+  margin: 0;
+}
+
+.grade-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: rgba(255, 215, 0, 0.1);
+  border: 2px solid var(--golden-yellow);
+  border-radius: 25px;
+  color: var(--golden-yellow);
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.award-icon {
+  font-size: 20px;
+}
+
+.edu-duration {
+  font-size: 15px;
+  color: var(--text-gray);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.activities-section {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.activities-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--golden-yellow);
+  margin-bottom: 15px;
+}
+
+.activities-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.activities-list li {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-gray);
+  padding-left: 25px;
+  position: relative;
+}
+
+.activities-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--golden-yellow);
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .education-container {
+    padding: 0 15px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .education-card {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 20px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .edu-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin: 0 auto;
+  }
+
+  .edu-content {
+    text-align: center;
+  }
+
+  .edu-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .edu-degree {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .edu-institution {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .edu-duration {
+    text-align: center;
+  }
+
+  .grade-badge {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .activities-section {
+    text-align: left;
+  }
+
+  .activities-title {
+    text-align: center;
+  }
+
+  .activities-list li {
+    font-size: 13px;
+    text-align: left;
+  }
+}
+
