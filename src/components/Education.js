@@ -9,7 +9,7 @@ const Education = () => {
       degree: "Master's degree, Computer Science",
       institution: 'Government Arts College, Salem',
       duration: 'Jul 2023 - May 2025',
-      grade: 'First Class',
+      grade: 'First Class Distinction with D+',
       icon: <FaGraduationCap />,
       activities: [
         'AI and Machine Learning Club: Hackathons and AI research projects',
@@ -24,7 +24,7 @@ const Education = () => {
       degree: "Bachelor's degree, Computer Science",
       institution: 'Government Arts College, Salem',
       duration: '2020 - 2023',
-      grade: 'First Class Distinction',
+      grade: 'First Class Distinction with D',
       icon: <FaTrophy />,
       activities: []
     }

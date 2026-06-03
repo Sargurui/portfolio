@@ -6,7 +6,8 @@ import './Hero.css';
 const Hero = () => {
   const roles = [
     'AI/ML Engineer',
-    'Multi-Agent & RAG Developer',
+    'Multi-Agent , RAG Developer & LangGraph Specialist',
+    'AWS Cloud & DevOps Specialist',
     'Voice AI Specialist',
     'Workflow Automation Expert',
     'AI Video Creator',
@@ -94,8 +95,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
           >
-            I'm an AI/ML Engineer and Prompt Engineer passionate about building intelligent, 
-            interactive, and automated systems that bridge human creativity with machine precision.
+            I’m an AI/ML Engineer, DevOps & AWS Practitioner, and Prompt Engineer passionate about building intelligent, interactive, and automated systems that bridge human creativity with machine precision.
           </motion.p>
 
           <motion.p
@@ -104,9 +104,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1 }}
           >
-            From developing Multi-Agent AI systems and RAG (Retrieval-Augmented Generation) 
-            architectures to integrating voice-based conversational processes, I focus on creating 
-            real-world AI solutions that think, speak, and act.
+            From developing Multi-Agent AI systems and RAG (Retrieval-Augmented Generation) architectures with LangGraph agents to integrating voice-based conversational processes, I focus on creating real-world AI solutions that think, speak, and act — while ensuring scalable, production-ready deployments using modern DevOps practices and cloud infrastructure on AWS.
           </motion.p>
 
           <motion.p
@@ -115,9 +113,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.2 }}
           >
-            As a traditional coder turned vibe coder, I blend technical depth with creative flow — 
-            whether it's automating workflows in n8n, crafting smart prompts, or experimenting with 
-            AI-driven video editing that tells stories in a new way.
+            As a traditional coder turned vibe coder, I blend technical depth with creative flow — whether it’s automating workflows in n8n, crafting smart prompts, designing LangGraph-powered agents, deploying AI systems on AWS, or experimenting with AI-driven video editing that tells stories in a new way.
           </motion.p>
 
           <motion.div

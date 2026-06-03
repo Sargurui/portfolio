@@ -12,7 +12,7 @@ const Experience = () => {
           title: 'AI Expert',
           type: 'Full-time',
           duration: 'Nov 2025 - Present',
-          period: '1 mo',
+          period: 'Ongoing',
           location: 'Salem, Tamil Nadu, India',
           mode: 'On-site',
           description: 'Building SaaS applications powered by agentic AI technologies. Developed HelpDude - an AI-powered support assistant using RAG technology for automated ticket response generation.'

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaBrain, FaRobot, FaDatabase, FaMicrophone, FaComments, FaCog, FaVideo } from 'react-icons/fa';
+import { FaBrain, FaRobot, FaDatabase, FaMicrophone, FaComments, FaCog, FaVideo, FaCloud } from 'react-icons/fa';
 import './Skills.css';
 
 const Skills = () => {
@@ -15,7 +15,13 @@ const Skills = () => {
       icon: <FaRobot />,
       title: 'Multi-Agent Systems',
       description: 'Designing AI agents that collaborate intelligently to solve complex problems',
-      techs: ['LangChain', 'AutoGen', 'CrewAI', 'Agent Protocols']
+      techs: ['LangChain', 'LangGraph', 'AutoGen', 'CrewAI', 'Agent Protocols']
+    },
+     {
+      icon: <FaCloud />,
+      title: 'AWS Cloud & DevOps',
+      description: 'Building scalable AWS cloud systems with data, APIs, CI/CD, and GenAI services',
+      techs: ['AWS RDS', 'S3', 'API Gateway', 'CodePipeline', 'Bedrock', 'DevOps']
     },
     {
       icon: <FaDatabase />,
@@ -23,6 +29,7 @@ const Skills = () => {
       description: 'Connecting large data sources with LLMs for domain-specific AI solutions',
       techs: ['Vector DBs', 'FAISS', 'Pinecone', 'ChromaDB']
     },
+  
     {
       icon: <FaMicrophone />,
       title: 'Voice Process AI',
